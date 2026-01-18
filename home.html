@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>春風化雨</title>
-    <link rel="stylesheet" href="style_slide.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js" defer></script>
 </head>
 <body>
     <div class = "container">
+        <div class="page">
+        <div class="topbar">
+            <!-- 左側：頭貼＋名稱（小區域） -->
+            <div class="profile">
+                <!-- 把 src 換成你的頭貼路徑，例如 ./pic/avatar.jpg -->
+                <img class="avatar" src="./pic/IMG_3853.JPG" alt="avatar">
+                <div class="profile-name">春風化雨</div>
+            </div>
 
+            <!-- 右上：介紹 -->
+            <div class="intro">
+                <div class="intro-title">網站介紹</div>
+                <div class="intro-desc">教育聯誼園地</div>
+            </div>
+
+            <!-- 右下：社群（小區域） -->
+            <div class="social">
+                <a href="https://instagram.com/你的帳號" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.threads.net/@你的帳號" target="_blank" aria-label="Threads">
+                    <i class="fa-brands fa-threads"></i>
+                </a>
+            </div>
+        </div>
 
         <div class="slide">
             
@@ -39,12 +63,13 @@
             </div>
         </div>
         <div class="buttons">
-            <button class="prev" type="button" aria-label="Previous">
-                <i class="fa-solid fa-arrow-left"></i>
-            </button>
-            <button class="next" type="button" aria-label="Next">
-                <i class="fa-solid fa-arrow-right"></i>
-            </button>
+                <button class="prev" type="button" aria-label="Previous">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button class="next" type="button" aria-label="Next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
         </div>
     </div>
     
